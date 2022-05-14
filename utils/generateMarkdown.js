@@ -97,11 +97,10 @@ ${renderLicenseBadge(data.license)}
   ${data.test}
 
 # Questions
-Contact Information: <br>
+Contact Information: If you have questions, view the GitHub profile below or direct them to the below email. <br>
 -Email: [${data.email}](mailto:${data.email}) <br>
--GitHub: 
+-GitHub: [${data.github}](https://github.com/${data.github})
 `;
-
 }
 
 module.exports = generateMarkdown;
